@@ -22,6 +22,8 @@ interface ExceptionInterface
 
     public function getStackTrace(): array;
 
+    public function getUploadFileName(): string;
+
     /**
      * if a client message is set, the locale token won't be used
      */
