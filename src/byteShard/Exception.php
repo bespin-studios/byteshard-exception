@@ -32,6 +32,7 @@ class Exception extends \Exception implements ExceptionInterface, JsonSerializab
     private string $idElement;
     /** @deprecated */
     private string $idRegularExpression;
+    private string $uploadFileName = '';
 
     /**
      * Exception constructor.
@@ -84,5 +85,15 @@ class Exception extends \Exception implements ExceptionInterface, JsonSerializab
         if ($regularExpression !== null) {
             $this->idRegularExpression = $regularExpression;
         }
+    }
+
+    public function setUploadFileName(string $uploadFileName): void
+    {
+        $this->uploadFileName = $uploadFileName;
+    }
+
+    public function getUploadFileName(): string
+    {
+        return $this->uploadFileName;
     }
 }
