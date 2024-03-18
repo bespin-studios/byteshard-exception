@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/byteshard/exception/compare/v1.1.0...v1.1.1) (2024-03-18)
+
+
+### Bug Fixes
+
+* for unknown reasons a parameter might not be set ([38a01b7](https://github.com/byteshard/exception/commit/38a01b7cef91b1773a724af3a49fd1eef2b442f8))
+* update github action for node 20 compatibility ([882cf21](https://github.com/byteshard/exception/commit/882cf210bd157dc5d2ca68482a7fabfaf1e09d70))
+
 # [1.1.0](https://github.com/byteshard/exception/compare/v1.0.0...v1.1.0) (2024-02-14)
 
 
