@@ -186,6 +186,9 @@ trait ExceptionTraits
     private function discloseCredentials(bool $only_trace = false): array
     {
         if ($only_trace === false) {
+            if (!isset($this->hide_all_function_args)) {
+                $this->hide_all_function_args = false;
+            }
             if ($this->hide_all_function_args === false && empty($this->hide_functions_args) && empty($this->hide_functions_args_indices)) {
                 unset($this->hide_functions_args, $this->hide_all_function_args, $this->hide_functions_args_indices);
                 return (array)$this;
