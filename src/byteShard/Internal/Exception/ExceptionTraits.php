@@ -190,11 +190,11 @@ trait ExceptionTraits
                 $this->hide_all_function_args = false;
             }
             if ($this->hide_all_function_args === false && empty($this->hide_functions_args) && empty($this->hide_functions_args_indices)) {
-                unset($this->hide_functions_args, $this->hide_all_function_args, $this->hide_functions_args_indices);
+                $this->resetFunctionsArgs();
                 return (array)$this;
             }
             if (defined('DISCLOSE_CREDENTIALS') && DISCLOSE_CREDENTIALS === true && defined('LOGLEVEL') && LOGLEVEL === LogLevel::DEBUG) {
-                unset($this->hide_functions_args, $this->hide_all_function_args, $this->hide_functions_args_indices);
+                $this->resetFunctionsArgs();
                 return (array)$this;
             }
             if ($this->hide_all_function_args === true) {
@@ -205,7 +205,7 @@ trait ExceptionTraits
                 } catch (ReflectionException $e) {
                     $this->internalExceptions[] = $e;
                 }
-                unset($this->hide_functions_args, $this->hide_all_function_args, $this->hide_functions_args_indices);
+                $this->resetFunctionsArgs();
                 return (array)$this;
             }
         }
@@ -239,13 +239,20 @@ trait ExceptionTraits
             } catch (ReflectionException $e) {
                 $this->internalExceptions[] = $e;
             }
-            unset($this->hide_functions_args, $this->hide_all_function_args, $this->hide_functions_args_indices);
+            $this->resetFunctionsArgs();
             return (array)$this;
         }
         if ($only_trace === true) {
             return $this->getTrace();
         }
-        unset($this->hide_functions_args, $this->hide_all_function_args, $this->hide_functions_args_indices);
+        $this->resetFunctionsArgs();
         return (array)$this;
+    }
+
+    private function resetFunctionsArgs(): void
+    {
+        $this->hide_functions_args         = [];
+        $this->hide_all_function_args      = false;
+        $this->hide_functions_args_indices = [];
     }
 }

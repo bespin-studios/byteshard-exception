@@ -46,7 +46,7 @@ class Exception extends \Exception implements ExceptionInterface, JsonSerializab
      * @param string $method
      * @param Throwable|null $previous
      */
-    public function __construct(string $message = '', int $code = 10000000, string $method = '', Throwable $previous = null)
+    public function __construct(string $message = '', int $code = 10000000, string $method = '', ?Throwable $previous = null)
     {
         if ($method !== '') {
             $traces = $this->getTrace();
