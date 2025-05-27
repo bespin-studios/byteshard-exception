@@ -20,6 +20,6 @@
     "byteshard/enum": "^1.0"
   },
   "require-dev": {
-    "phpstan/phpstan": "^1.9"
+    "phpstan/phpstan": "^2"
   }
 }

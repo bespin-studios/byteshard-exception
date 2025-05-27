@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7066d8a98e489641743ab94d6ad8692e",
+    "content-hash": "ecf39130ed49001bda28c6089b558a79",
     "packages": [
         {
             "name": "byteshard/debug",
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/byteshard/debug.git",
-                "reference": "f721f089f49b226b338c183a5b3b6d15dc7b4b59"
+                "url": "https://github.com/bespin-studios/byteshard-debug.git",
+                "reference": "102017288749fe1da687572b6200d7212d19e2de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/byteshard/debug/zipball/f721f089f49b226b338c183a5b3b6d15dc7b4b59",
-                "reference": "f721f089f49b226b338c183a5b3b6d15dc7b4b59",
+                "url": "https://api.github.com/repos/bespin-studios/byteshard-debug/zipball/102017288749fe1da687572b6200d7212d19e2de",
+                "reference": "102017288749fe1da687572b6200d7212d19e2de",
                 "shasum": ""
             },
             "require": {
@@ -44,23 +44,23 @@
             ],
             "description": "Debug helper for the byteShard framework",
             "support": {
-                "issues": "https://github.com/byteshard/debug/issues",
-                "source": "https://github.com/byteshard/debug/tree/v1.0.1"
+                "issues": "https://github.com/bespin-studios/byteshard-debug/issues",
+                "source": "https://github.com/bespin-studios/byteshard-debug/tree/v1.0.1"
             },
             "time": "2023-05-08T12:22:09+00:00"
         },
         {
             "name": "byteshard/enum",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/byteshard/enum.git",
-                "reference": "8e32681070acdb3e9655a474e5b8e09b0963c039"
+                "url": "https://github.com/bespin-studios/byteshard-enum.git",
+                "reference": "baf981bf48629f11121ed79c5ca4149b7c6628da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/byteshard/enum/zipball/8e32681070acdb3e9655a474e5b8e09b0963c039",
-                "reference": "8e32681070acdb3e9655a474e5b8e09b0963c039",
+                "url": "https://api.github.com/repos/bespin-studios/byteshard-enum/zipball/baf981bf48629f11121ed79c5ca4149b7c6628da",
+                "reference": "baf981bf48629f11121ed79c5ca4149b7c6628da",
                 "shasum": ""
             },
             "require": {
@@ -86,23 +86,23 @@
             ],
             "description": "Global enums for the byteShard framework",
             "support": {
-                "issues": "https://github.com/byteshard/enum/issues",
-                "source": "https://github.com/byteshard/enum/tree/v1.0.0"
+                "issues": "https://github.com/bespin-studios/byteshard-enum/issues",
+                "source": "https://github.com/bespin-studios/byteshard-enum/tree/v1.1.0"
             },
-            "time": "2023-05-08T13:11:59+00:00"
+            "time": "2023-10-10T08:06:15+00:00"
         },
         {
             "name": "byteshard/locale",
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/byteshard/locale.git",
-                "reference": "69fa65c90d456fc4dce59e0a307af60d62b59a15"
+                "url": "https://github.com/bespin-studios/byteshard-locale.git",
+                "reference": "c02934390fe5eead28f4e6b63c70047c316c88bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/byteshard/locale/zipball/69fa65c90d456fc4dce59e0a307af60d62b59a15",
-                "reference": "69fa65c90d456fc4dce59e0a307af60d62b59a15",
+                "url": "https://api.github.com/repos/bespin-studios/byteshard-locale/zipball/c02934390fe5eead28f4e6b63c70047c316c88bf",
+                "reference": "c02934390fe5eead28f4e6b63c70047c316c88bf",
                 "shasum": ""
             },
             "require": {
@@ -129,23 +129,23 @@
             ],
             "description": "Locale components for the byteShard framework",
             "support": {
-                "issues": "https://github.com/byteshard/locale/issues",
-                "source": "https://github.com/byteshard/locale/tree/v1.0.1"
+                "issues": "https://github.com/bespin-studios/byteshard-locale/issues",
+                "source": "https://github.com/bespin-studios/byteshard-locale/tree/v1.0.1"
             },
             "time": "2023-05-08T13:24:26+00:00"
         },
         {
             "name": "psr/log",
-            "version": "3.0.0",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
                 "shasum": ""
             },
             "require": {
@@ -180,28 +180,28 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.0"
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "time": "2021-07-14T16:46:02+00:00"
+            "time": "2024-09-11T13:17:53+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.14",
+            "version": "2.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d232901b09e67538e5c86a724be841bea5768a7c"
+                "reference": "402d11c1aa40ae2e1c3a512e6a4edb957527b20b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d232901b09e67538e5c86a724be841bea5768a7c",
-                "reference": "d232901b09e67538e5c86a724be841bea5768a7c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/402d11c1aa40ae2e1c3a512e6a4edb957527b20b",
+                "reference": "402d11c1aa40ae2e1c3a512e6a4edb957527b20b",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -240,23 +240,19 @@
                 {
                     "url": "https://github.com/phpstan",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2023-04-19T13:47:27+00:00"
+            "time": "2025-05-14T11:16:08+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
