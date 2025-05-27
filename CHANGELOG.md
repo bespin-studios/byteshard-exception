@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/bespin-studios/byteshard-exception/compare/v1.1.1...v1.1.2) (2025-05-27)
+
+
+### Bug Fixes
+
+* pipeline and php 8.4 warnings ([9a06135](https://github.com/bespin-studios/byteshard-exception/commit/9a0613554e3d9561d0c7bb024189ec500fb6f130))
+
 ## [1.1.1](https://github.com/byteshard/exception/compare/v1.1.0...v1.1.1) (2024-03-18)
 
 
